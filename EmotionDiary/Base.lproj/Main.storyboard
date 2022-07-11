@@ -4,13 +4,16 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EmotionDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -29,11 +32,11 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="" image="sesac_slime1"/>
                                                 <connections>
-                                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nvl-Op-oa3"/>
+                                                    <action selector="button1Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NVX-xw-2mv"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="좋아해😊" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxg-nk-jQh">
-                                                <rect key="frame" x="26" y="108" width="68" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="좋아해0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxg-nk-jQh">
+                                                <rect key="frame" x="20" y="108" width="80" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -45,8 +48,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q4x-ly-b0S">
                                         <rect key="frame" x="138.5" y="0.0" width="117" height="146.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="사랑해♥️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvh-hd-Lfa">
-                                                <rect key="frame" x="27" y="108" width="68" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="사랑해0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvh-hd-Lfa">
+                                                <rect key="frame" x="20" y="108" width="80" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -59,7 +62,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="" image="sesac_slime2"/>
                                                 <connections>
-                                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8LL-YZ-Avr"/>
+                                                    <action selector="button2Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uMM-PW-m2I"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -75,11 +78,11 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="" image="sesac_slime3"/>
                                                 <connections>
-                                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cdl-2i-Imc"/>
+                                                    <action selector="button3Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q88-jg-97p"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="하트뿅😍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvc-3k-6Uw">
-                                                <rect key="frame" x="27" y="108" width="68" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="하트뿅0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvc-3k-6Uw">
+                                                <rect key="frame" x="20" y="108" width="80" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -106,11 +109,11 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="" image="sesac_slime4"/>
                                                 <connections>
-                                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rsE-U0-EbT"/>
+                                                    <action selector="button4Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0eG-ZU-9rG"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="짜증나😡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sN-L1-K4I">
-                                                <rect key="frame" x="26" y="108" width="68" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="짜증나0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sN-L1-K4I">
+                                                <rect key="frame" x="20" y="108" width="80" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -122,8 +125,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T3h-fl-MpS">
                                         <rect key="frame" x="138.5" y="0.0" width="117" height="145"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="멍-해😑" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYE-7B-Dan">
-                                                <rect key="frame" x="31" y="108" width="61" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="멍-해0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYE-7B-Dan">
+                                                <rect key="frame" x="20" y="108" width="80" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -136,7 +139,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="" image="sesac_slime5"/>
                                                 <connections>
-                                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eZF-xd-44u"/>
+                                                    <action selector="button5Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M1y-Oq-qWu"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -152,11 +155,11 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="" image="sesac_slime6"/>
                                                 <connections>
-                                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XF4-KJ-CV7"/>
+                                                    <action selector="button6Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wDP-tU-9Go"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="졸려어😴" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnM-a1-oqU">
-                                                <rect key="frame" x="27" y="108" width="68" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="졸려어0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnM-a1-oqU">
+                                                <rect key="frame" x="20" y="108" width="80" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -183,11 +186,11 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="" image="sesac_slime7"/>
                                                 <connections>
-                                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f9y-2O-9uK"/>
+                                                    <action selector="button7Clciked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kjS-zK-rsY"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="땀삐질😅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6K-RO-3DL">
-                                                <rect key="frame" x="26" y="108" width="68" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="땀삐질0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6K-RO-3DL">
+                                                <rect key="frame" x="20" y="108" width="80" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -199,8 +202,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQA-l4-l8F">
                                         <rect key="frame" x="138.5" y="0.0" width="117" height="145.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="속상해☹️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ouK-s9-eH4">
-                                                <rect key="frame" x="27" y="108" width="68" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="속상해0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ouK-s9-eH4">
+                                                <rect key="frame" x="20" y="108" width="80" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -213,7 +216,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="" image="sesac_slime8"/>
                                                 <connections>
-                                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aHD-Ai-K55"/>
+                                                    <action selector="button8Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w1h-3q-0I7"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -229,11 +232,11 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="" image="sesac_slime9"/>
                                                 <connections>
-                                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="98n-I0-gMu"/>
+                                                    <action selector="button9Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qyF-cs-0yG"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="우울해😭" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gk-Ou-xwH">
-                                                <rect key="frame" x="27" y="108" width="68" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="우울해0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gk-Ou-xwH">
+                                                <rect key="frame" x="20" y="108" width="80" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -256,13 +259,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="버튼 클릭 수:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrG-Hc-UYH">
-                                <rect key="frame" x="40" y="139" width="140" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3e-ZG-wEp">
+                                <rect key="frame" x="10" y="64" width="21" height="22"/>
+                                <color key="tintColor" red="0.031160421099999999" green="0.067853496870000002" blue="0.069148516409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                    <imageReference key="image" image="list.dash" catalog="system" symbolScale="default"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -274,22 +279,32 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0EK-Gn-HmY" secondAttribute="trailing" constant="10" id="N6N-pe-k10"/>
                             <constraint firstItem="0EK-Gn-HmY" firstAttribute="top" secondItem="v35-8A-fKF" secondAttribute="bottom" constant="10" id="Qch-KJ-YEg"/>
                             <constraint firstItem="0EK-Gn-HmY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Tqd-fR-bAK"/>
+                            <constraint firstItem="G3e-ZG-wEp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="gHJ-0q-YJ9"/>
                             <constraint firstItem="v35-8A-fKF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="icE-Uo-ABq"/>
+                            <constraint firstItem="G3e-ZG-wEp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="jzK-GE-emd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v35-8A-fKF" secondAttribute="trailing" constant="10" id="kHE-4X-r8j"/>
                             <constraint firstItem="v35-8A-fKF" firstAttribute="top" secondItem="9Ef-vy-XFW" secondAttribute="bottom" constant="10" id="mmf-JF-r1N"/>
                             <constraint firstItem="Wt0-hu-6vV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="oWl-eV-g7t"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="buttonClickCountLabel" destination="nrG-Hc-UYH" id="Saf-pe-U0L"/>
+                        <outlet property="button1Label" destination="sxg-nk-jQh" id="Blr-VW-F54"/>
+                        <outlet property="button2Label" destination="Mvh-hd-Lfa" id="u1W-e4-hsD"/>
+                        <outlet property="button3Label" destination="tvc-3k-6Uw" id="fxn-fd-Opf"/>
+                        <outlet property="button4Label" destination="1sN-L1-K4I" id="e29-ra-iW8"/>
+                        <outlet property="button5Label" destination="AYE-7B-Dan" id="QWg-PD-ndr"/>
+                        <outlet property="button6Label" destination="SnM-a1-oqU" id="rQx-rK-kje"/>
+                        <outlet property="button7Label" destination="C6K-RO-3DL" id="XbA-4X-fUf"/>
+                        <outlet property="button8Label" destination="ouK-s9-eH4" id="wQ5-4i-rOt"/>
+                        <outlet property="button9Label" destination="6gk-Ou-xwH" id="DYa-dV-dSZ"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="13.043478260869566" y="22.767857142857142"/>
         </scene>
     </scenes>
     <resources>
+        <image name="list.dash" catalog="system" width="128" height="85"/>
         <image name="sesac_slime1" width="278" height="258"/>
         <image name="sesac_slime2" width="278" height="258"/>
         <image name="sesac_slime3" width="278" height="258"/>
@@ -299,5 +314,8 @@
         <image name="sesac_slime7" width="278" height="258"/>
         <image name="sesac_slime8" width="278" height="258"/>
         <image name="sesac_slime9" width="278" height="258"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
