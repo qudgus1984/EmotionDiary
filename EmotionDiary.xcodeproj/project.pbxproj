@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F9E77E5287D215B00B0A81F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E77E4287D215B00B0A81F /* SecondViewController.swift */; };
 		2FE5A964287BFDE9003376F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE5A963287BFDE9003376F5 /* AppDelegate.swift */; };
 		2FE5A966287BFDE9003376F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE5A965287BFDE9003376F5 /* SceneDelegate.swift */; };
 		2FE5A968287BFDE9003376F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE5A967287BFDE9003376F5 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F9E77E4287D215B00B0A81F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2FE5A960287BFDE9003376F5 /* EmotionDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE5A963287BFDE9003376F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FE5A965287BFDE9003376F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				2FE5A965287BFDE9003376F5 /* SceneDelegate.swift */,
 				2FE5A967287BFDE9003376F5 /* ViewController.swift */,
 				2FE5A969287BFDE9003376F5 /* Main.storyboard */,
+				2F9E77E4287D215B00B0A81F /* SecondViewController.swift */,
 				2FE5A96C287BFDE9003376F5 /* Assets.xcassets */,
 				2FE5A96E287BFDE9003376F5 /* LaunchScreen.storyboard */,
 				2FE5A971287BFDE9003376F5 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9E77E5287D215B00B0A81F /* SecondViewController.swift in Sources */,
 				2FE5A968287BFDE9003376F5 /* ViewController.swift in Sources */,
 				2FE5A964287BFDE9003376F5 /* AppDelegate.swift in Sources */,
 				2FE5A966287BFDE9003376F5 /* SceneDelegate.swift in Sources */,
