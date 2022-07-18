@@ -7,6 +7,8 @@
 
 import UIKit
 
+var arrayNum = [0,0,0,0,0,0,0,0,0]
+
 enum MusicType: Int {
     case all = 0
     case korea = 1
@@ -16,6 +18,7 @@ enum MusicType: Int {
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var buttonCount: UIButton!
     @IBOutlet weak var segmentControl: UISegmentedControl!
     @IBOutlet weak var resultLabel: UILabel!
     
@@ -55,4 +58,41 @@ class SecondViewController: UIViewController {
         
     }
     
+    @IBAction func arrayButton(_ sender: UIButton) {
+        if sender.tag == 0 {
+            arrayNum[sender.tag] += 1
+            
+        } else if sender.tag == 1 {
+            arrayNum[sender.tag] += 1
+        } else if sender.tag == 2 {
+            arrayNum[sender.tag] += 1
+        } else if sender.tag == 3 {
+            arrayNum[sender.tag] += 1
+        } else if sender.tag == 4 {
+            arrayNum[sender.tag] += 1
+        } else if sender.tag == 5 {
+            arrayNum[sender.tag] += 1
+        } else if sender.tag == 6 {
+            arrayNum[sender.tag] += 1
+        } else if sender.tag == 7 {
+            arrayNum[sender.tag] += 1
+        } else if sender.tag == 8 {
+            arrayNum[sender.tag] += 1
+        }
+        
+    }
+    
+    
+    /// print(sender.tag, sender.currentTitle,  sender.currentImage)
+    /// 버튼 아웃렛 변수 설정후, emotionButton.tag = 0
+    /// var emotionArray = [0,0,0,0,0,0,0,0,0]
+    /// emotionArray[sender.tag] += 1
+    ///
+    /// if sender.tag == 0 {
+    ///     emotionArray[sender.tag] += 1
+    /// } else if sender.tag == 1 {
+    ///     emotionArray[sender.tag] += 1
+    /// }
+    ///
+    /// emotionFirstLabel.text = "\(emotionArray[0])"
 }
